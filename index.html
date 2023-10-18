@@ -1,90 +1,48 @@
-html
 <!DOCTYPE html>  
-<html>  
+<html lang="en">  
 <head>  
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
   <title>个人主页</title>  
   <style>  
-    body {  
-      background-color: #3498db;  
-      color: white;  
-      font-family:当然可以帮你写一个炫酷的个人主页。以下是一个简单的示例，你可以根据自己的需求进行修改和扩展。  
-  
-  
-```html  
-<!DOCTYPE html>  
-<html>  
-<head>  
-  <title>个人主页</title>  
-  <style>  
-    /* 基本样式 */  
     body {  
       font-family: Arial, sans-serif;  
-      background-color: #f4f4f4;  
       margin: 0;  
       padding: 0;  
+      background-color: #f1f1f1;  
     }  
   
     .container {  
-      width: 960px;  
+      max-width: 960px;  
       margin: 0 auto;  
       padding: 20px;  
     }  
   
     h1 {  
+      color: #333333;  
       text-align: center;  
-      color: #333;  
     }  
   
     p {  
-      margin-bottom: 15px;  
-      line-height: 1.5;  
+      color: #666666;  
+      line-height: 1.6;  
     }  
   
-    /* 炫酷效果 */  
-    .cool-effect {  
-      position: relative;  
-      background-color: #333;  
-      color: #fff;  
-      padding: 20px;  
-      margin-bottom: 20px;  
-    }  
-  
-    .cool-effect::after {  
-      content: '';  
-      position: absolute;  
-      top: 0;  
-      left: 0;  
-      right: 0;  
-      bottom: 0;  
-      background-image: linear-gradient(to right, rgba(255,0,0,0.2), rgba(0,0,255,0.2));  
+    .avatar {  
+      display: block;  
+      width: 120px;  
+      height: 120px;  
+      border-radius: 50%;  
+      margin: 20px auto;  
     }  
   </style>  
 </head>  
 <body>  
   <div class="container">  
-    <h1>欢迎来到我的个人主页！</h1>  
-    <p>这是一个炫酷的个人主页示例。</p>  
-    <div class="cool-effect">  
-      <h2>关于我</h2>  
-      <p>我是一个热爱技术和创新的年轻人，喜欢探索新事物和与他人交流。</p>  
-      <p>我在多个领域都有所涉猎，包括前端开发、后端开发、数据分析等。</p>  
-    </div>  
-    <div class="cool-effect">  
-      <h2>我的技能</h2>  
-      <ul>  
-        <li>前端开发：HTML5，CSS3，JavaScript，React</li>  
-        <li>后端开发：Node.js，Express，MySQL</li>  
-        <li>数据分析：Python，Pandas，Matplotlib</li>  
-      </ul>  
-    </div>  
-    <div class="cool-effect">  
-      <h2>我的项目</h2>  
-      <ul>  
-        <li><a href="https://example.com">项目1</a></li>  
-        <li><a href="https://example.com">项目2</a></li>  
-        <li><a href="https://example.com">项目3</a></li>  
-      </ul>  
-    </div>  
+    <h1>欢迎来到我的个人主页</h1>  
+    <p>这是一个简单而优雅的个人主页示例。</p>  
+    <img src="tx.jpg" alt="我的头像" class="avatar">  
+    <p>在这里你可以找到我的联系方式、社交媒体信息以及其他有用的信息。</p>  
   </div>  
 </body>  
 </html>
